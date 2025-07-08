@@ -2,74 +2,136 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Velmor Co | Innovation Forward</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
   <style>
     * {
       margin: 0; padding: 0; box-sizing: border-box;
-      font-family: 'Inter', sans-serif;
+      font-family: 'Montserrat', sans-serif;
     }
     body {
-      background-color: #f4f4f8;
+      background: linear-gradient(135deg, #e0e0e0, #ffffff);
       color: #222;
       line-height: 1.6;
+      padding: 0 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
     }
     header {
-      background-color: #111827;
-      color: #fff;
-      padding: 2rem;
+      background-color: #1a1a2e;
+      color: #f8f8f8;
+      padding: 3rem 2rem;
       text-align: center;
+      border-radius: 12px;
+      margin-top: 2rem;
+      box-shadow: 0 0 20px rgba(26, 26, 46, 0.6);
     }
     header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+      letter-spacing: 3px;
     }
     header p {
-      font-size: 1.1rem;
-      color: #9ca3af;
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #c1c1c1;
+      font-style: italic;
     }
     section {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
+      background: white;
+      border-radius: 10px;
+      padding: 2rem 2.5rem;
+      margin-top: 2.5rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     }
     section h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #1a1a2e;
+      border-bottom: 3px solid #e94e77;
+      padding-bottom: 0.4rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+    }
+    p {
+      font-size: 1.15rem;
       margin-bottom: 1rem;
-      color: #111827;
+      color: #333;
+    }
+    .stats {
+      font-weight: 700;
+      color: #e94e77;
+    }
+    .contact-info strong {
+      display: block;
+      margin-top: 0.4rem;
+      font-weight: 600;
+    }
+    .team-list {
+      list-style: none;
+      padding-left: 0;
+    }
+    .team-list li {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+      color: #444;
+      border-left: 4px solid #e94e77;
+      padding-left: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
     }
     footer {
       text-align: center;
-      padding: 1.5rem;
-      background-color: #e5e7eb;
-      color: #6b7280;
+      margin: 3rem 0 2rem 0;
       font-size: 0.9rem;
+      color: #777;
+      font-style: italic;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Velmor Co</h1>
-    <p>Driving innovation into the next dimension.</p>
+    <p>"Driving innovation into the next dimension."</p>
   </header>
 
   <section>
     <h2>About Us</h2>
-    <p>Velmor Co is a leading-edge solutions provider in the fields of AI, aerospace logistics, and next-gen simulation systems. Our mission is to deliver futuristic technologies for today’s problems.</p>
+    <p>Velmor Co is a premier American technology firm specializing in AI, aerospace logistics, and next-generation simulation systems.</p>
+    <p>We proudly serve over <span class="stats">2 million users</span> with more than <span class="stats">10,000+ glowing reviews</span> worldwide.</p>
   </section>
 
   <section>
     <h2>Our Vision</h2>
-    <p>We believe in progress without limits. Our team is dedicated to pushing the boundaries of what's possible, from intelligent automation to interplanetary data transfer protocols.</p>
+    <p>We believe in progress without limits. Our dedicated team pushes the boundaries of what's possible, from intelligent automation to interplanetary data transfer protocols.</p>
   </section>
 
   <section>
     <h2>Contact</h2>
-    <p>For business inquiries or media contact: <br><strong>contact@velmor.co</strong></p>
+    <div class="contact-info">
+      <p>Email: <strong>contact@velmorco.us</strong></p>
+      <p>Phone: <strong>+1 (555) 123-4567</strong></p>
+      <p>Location: <strong>Silicon Valley, California, USA</strong></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Meet Our Team</h2>
+    <ul class="team-list">
+      <li>Mark Thompson – CEO & Founder</li>
+      <li>Sarah Collins – Chief Technology Officer</li>
+      <li>David Lee – Lead AI Engineer</li>
+      <li>Emily Rivera – Aerospace Logistics Manager</li>
+      <li>James Patel – Head of Simulation Systems</li>
+    </ul>
   </section>
 
   <footer>
     © 2025 Velmor Co. All rights reserved.
   </footer>
+
 </body>
 </html>
